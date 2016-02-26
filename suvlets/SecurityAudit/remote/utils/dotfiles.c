@@ -80,7 +80,7 @@ int safe_exec_pipe(int *out, char *path, ...)
    	int pid;
 	va_list ap;
 	int num_args = 0;
-	char *args[11];
+	char *args[12];
 	int exec_pipe[2];
 
 	// Collect arguments

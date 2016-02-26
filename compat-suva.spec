@@ -2,7 +2,7 @@
 
 Name: compat-suva
 Version: 1.0
-Release: 11%{dist}
+Release: 12%{dist}
 Vendor: ClearFoundation
 License: GPL
 Group: Application/Misc
