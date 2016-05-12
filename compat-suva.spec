@@ -33,6 +33,7 @@ Report bugs to: http://www.clearfoundation.com/docs/developer/bug_tracker/
 
 %prep
 %setup -q
+./autogen.sh
 %{configure} --without-selinux
 
 %build

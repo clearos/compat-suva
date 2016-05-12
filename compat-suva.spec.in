@@ -33,6 +33,7 @@ Report bugs to: @PACKAGE_BUGREPORT@
 
 %prep
 %setup -q
+./autogen.sh
 %{configure} --without-selinux
 
 %build
