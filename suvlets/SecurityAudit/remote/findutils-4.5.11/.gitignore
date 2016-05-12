@@ -2,6 +2,7 @@ aclocal.m4
 autom4te.cache/
 build-aux/Makefile
 build-aux/Makefile.in
+tool-versions.txt
 config.h
 config.log
 config.status
