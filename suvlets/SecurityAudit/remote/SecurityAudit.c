@@ -294,7 +294,7 @@ int safe_exec(char *path, ...)
 	va_end(ap);
 	
 	// Make certain it's null terminated even if we exceed the arg limit
-	a[11] = 0;
+	a[10] = 0;
 	
 	// Fork
 	pid = fork();
@@ -339,7 +339,7 @@ int safe_exec_pipe(int *out, char *path, ...)
 	va_end(ap);
 
 	// Make certain it's null terminated even if we exceed the arg limit
-	args[11] = 0;
+	args[10] = 0;
 
 	// Create pipes
 	if (pipe(exec_pipe) < 0) {
@@ -583,5 +583,4 @@ int file_copy(char *from, char *to)
 
 	return 0;
 }
-
 
