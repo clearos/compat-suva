@@ -2,7 +2,7 @@
 
 Name: compat-suva
 Version: 1.0
-Release: 13%{dist}
+Release: 14%{dist}
 Vendor: ClearFoundation
 License: GPL
 Group: Application/Misc
@@ -10,6 +10,9 @@ Packager: ClearFoundation
 Requires: suva-client >= 2.0.0
 Provides: suvlets
 Obsoletes: suvlets, suva-client < 2.0.0
+BuildRequires: autoconf >= 2.63
+BuildRequires: automake
+BuildRequires: libtool
 BuildRequires: bison
 BuildRequires: flex
 BuildRequires: zlib-devel
